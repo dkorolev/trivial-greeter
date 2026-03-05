@@ -1,0 +1,11 @@
+{
+  "name": "trivial-greeter",
+  "version": "1.0.0",
+  "description": "A trivial greeter function",
+  "main": "index.js",
+  "bin": {
+    "trivial-greeter": "cli.js"
+  },
+  "keywords": ["greeter", "hello", "trivial"],
+  "license": "MIT"
+}
