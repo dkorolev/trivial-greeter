@@ -2,10 +2,27 @@
   "name": "trivial-greeter",
   "version": "1.0.0",
   "description": "A trivial greeter function",
+  "keywords": [
+    "greeter",
+    "hello",
+    "trivial"
+  ],
+  "homepage": "https://github.com/dkorolev/trivial-greeter#readme",
+  "bugs": {
+    "url": "https://github.com/dkorolev/trivial-greeter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkorolev/trivial-greeter.git"
+  },
+  "license": "MIT",
+  "author": "Dima Korolev",
+  "type": "commonjs",
   "main": "index.js",
   "bin": {
     "trivial-greeter": "cli.js"
   },
-  "keywords": ["greeter", "hello", "trivial"],
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
